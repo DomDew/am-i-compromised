@@ -1,0 +1,16 @@
+{
+  "name": "am-i-compromised",
+  "version": "1.0.0",
+  "description": "Compare a vulnerability CSV against a project's package.json / package-lock.json",
+  "main": "check.js",
+  "bin": {
+    "am-i-compromised": "./check.js"
+  },
+  "scripts": {
+    "check": "node check.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
